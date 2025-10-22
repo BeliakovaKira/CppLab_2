@@ -21,8 +21,8 @@ int main() {
         return 1;
     }
     
-    string input_file = "input.txt";
-    string output_file = "output.txt";
+    string input_file = "name1.txt";
+    string output_file = "name2.txt";
     
     ifstream in(input_file);
     if (!in.is_open()) {
@@ -43,4 +43,5 @@ int main() {
     cout << "Файл " << output_file << " создан с словами длиной <= " << K << endl;
     
     return 0;
+
 }
